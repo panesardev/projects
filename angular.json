@@ -62,7 +62,7 @@
             "assets": [
               {
                 "glob": "**/*",
-                "input": "projects/pdf-tools/public"
+                "input": "projects/pdf-tools/src/public"
               }
             ],
             "styles": [
