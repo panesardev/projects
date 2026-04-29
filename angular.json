@@ -11,43 +11,16 @@
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
-          "inlineTemplate": true,
           "inlineStyle": true,
           "skipTests": true,
           "type": "component",
-          "addTypeToClassName": false
-        },
-        "@schematics/angular:class": {
-          "skipTests": true
-        },
-        "@schematics/angular:directive": {
-          "skipTests": true,
-          "type": "directive",
-          "addTypeToClassName": false
-        },
-        "@schematics/angular:guard": {
-          "skipTests": true,
-          "typeSeparator": "."
-        },
-        "@schematics/angular:interceptor": {
-          "skipTests": true,
-          "typeSeparator": "."
-        },
-        "@schematics/angular:pipe": {
-          "skipTests": true,
-          "typeSeparator": "."
-        },
-        "@schematics/angular:resolver": {
-          "skipTests": true,
-          "typeSeparator": "."
+          "addTypeToClassName": true,
+          "changeDetection": "OnPush"
         },
         "@schematics/angular:service": {
           "skipTests": true,
           "type": "service",
           "addTypeToClassName": false
-        },
-        "@schematics/angular:module": {
-          "typeSeparator": "."
         }
       },
       "root": "projects/pdf-tools",
@@ -66,7 +39,7 @@
               }
             ],
             "styles": [
-              "projects/pdf-tools/src/styles.css"
+              "projects/pdf-tools/src/styles/index.css"
             ]
           },
           "configurations": {
