@@ -64,3 +64,12 @@
   --depth: 1;
   --noise: 0;
 }
+
+@font-face {
+  font-family: 'Google Sans';
+  src: url('/GoogleSans.ttf') format('ttf');
+}
+
+.html {
+  /* font-family: "Google Sans", sans-serif; */
+}
